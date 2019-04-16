@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ <script type="text/javascript" src="js/jquery-3.3.1.min.js">
+ </script>
+ <script type="text/javascript" src="js/game.js">
+ </script>
+ <link href="css/style.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+ <div class="mainwrapper">
+	<div class='subheader'><img src="images/dots&box.png"><div class="instruction"><a href="#" id="ancid">How to Play???</a></div></div>
+		<div class="wrapper">
+			<p>
+				<label>Enter the number of rows</label>
+				<input type="text" id="rowid" maxlength=1>
+				 <label>Enter the number of columns</label>
+				 <input type="text" id="columnid" maxlength=1>
+			</p>
+			<p>
+				 <input type="button" id="btnclick" value="Start">
+			 &nbsp;&nbsp;&nbsp;&nbsp;<input type="button" id="resetgame" value="Restart">
+			</p>
+			 <p>Maximum 8 * 8
+			 </p>
+
+		</div>
+		 <div class="playerarea"><div class="player1"><b>Player1 Score</b><span id="p1"></span></div> <div class="player2"><b>Player2 Score</b><span id="p2"></span></div><div class="cleardiv"></div></div>
+		 <div class="gamediv">
+		<!--<img src="images/dots.png">-->
+		<div id="dotgrid">
+		</div>
+		</div>
+		<div class="blur"></div>	
+		<div class="popup">
+		<a href="#" class="js-close-modal">X</a>
+		<p id="gamename">Dots & Boxes Game!!!!</p>
+		<h1>RULES:-</h1>
+		<hr>
+		<p id="popid">
+		Starting with an empty grid of dots, two players take turns adding a single horizontal or vertical line between two unjoined adjacent dots. The player who completes the fourth side of a 1×1 box earns one point and takes another turn. (A point is typically recorded by placing a mark that identifies the player in the box, such as an initial.) The game ends when no more lines can be placed. The winner is the player with the most points.[2][7] The board may be of any size. When short on time, a 2×2 board (a square of 9 dots) is good for beginners.[8] A 5×5 is good for experts.[9] The diagram on the right shows a game being played on the 2×2 board. The second player (B) plays the mirror image of the first players move, hoping to divide the board into two pieces and tie the game. But the first player (A) makes a sacrifice at move 7 and B accepts the sacrifice, getting one box. However, B must now add another line, and connects the center dot to the center-right dot, causing the remaining boxes to be joined together in a chain (shown at the end of move 8). With As next move, player A gets them all and wins 3–1.<p><img src='images/rulesdots.png'></img></p>"
+		</p>
+
+	</div>
+	<div class="winpopup1"><h1>player 1 won!!!!!!!!!!!!</h1></div>
+</div>
+<div class="winpopup2"><h1>player 2 won!!!!!!!!!!!!</h1></div>
+</div>
+	<div class="drawpopup"><h1>OOPS Draw!!!!!!!!!!!!</h1></div>
+</div>
+ </body>
+</html>

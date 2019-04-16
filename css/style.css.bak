@@ -1,0 +1,43 @@
+/*stylesheet*/
+.radio{float:left;}
+input[type='radio']{width:10px;color:#000;}
+.line{width: 50px;height: 10px;background: white; float: left;}
+.lineheight{width:10px;height:40px;background:white;float:left;margin-left:7.5px;}
+.blankwidth{width:50px;height:40px;float:left;}
+.cleargrid{clear:both;}
+.endpoints{float:left;}
+.endheight{width:10px;height:40px;background:lightgrey;margin-left:15px;float:left;}
+#dotgrid{margin-top: 5%;background: lightgrey;}
+.gamediv{margin-left: 25%;margin-right: 0;}
+.subheader{background: cyan;padding: 10px;text-align: center;color: #132e96;font-size: 30px;}
+.header h1{text-align:center;}
+.wrapper{width: 1000px;margin: 0 auto;}
+p{font-size: 26px;color: black;font-weight: bold; padding: 20px 0;text-align: center;}
+input[type="button"]{width:100px;height:30px;background:lightgrey;color:black;font-weight:bold;font-size:20px;}
+.mainwrapper{width: 1200px;margin: 0 auto;background: lightgrey;z-index:9000;}
+input[type="text"]{padding: 10px 0;}
+.player1{font-size:26px;font-weight:bold;float:left;color:red;margin-left:80px;}
+.player2{font-size:26px;font-weight:bold;float:right;color:black;margin-right:80px;}
+.gamediv{min-height:300px;}
+.player1 span{color:red;font-size:36px;}
+.player2 span{color:black;font-size:36px;}
+.cleardiv{clear:both;}
+.playerarea{width: 1200px;margin: 0 auto;height:70px;}
+.instruction{float:right;}
+.instruction a{color:brown;font-size:36px;margin-top:20px;position:relative;left:-15px;top:-60px;}
+.blur{height:100%;width:100%;display:none;position:fixed;bottom:0;right:0;opacity:0.8;z-index:9001;background:black;}
+.popup{z-index: 9002;width: 1000px;height: 800px;display: none;position: fixed;top: 50%; left: 50%;background-color: cyan;color: black;margin: auto;overflow-y: scroll;padding: 25px;transform: translate(-50%,-50%);overflow-y: scroll;}
+#ancid{color:black;}
+.popup a{font-size:14px;color:brown;}
+#gamename h1{font-size:30px;font-weight:bold;text-align:center;}
+img{height:400px;width:400px;}
+#gamename{text-align:center;font-size:30px;font-weight:bold;}
+.popup .js-close-modal {position: absolute;top: 0;right: 0;text-decoration: none;color:white;font-weight: bold;display: block;padding: 0 20px;font-size:30px;background: red;height: 30px; }
+.subheader img{background-size:cover;width:1180px;height:250px;}
+.winpopup1 h1{text-align:center;color:green;}
+.winpopup2 h1{text-align:center;color:green;}
+.drawpopup h1{text-align:center;color:red;}
+.winpopup1{z-index: 9003;width: 1000px;height: 400px;display: none;position: fixed;top: 50%; left: 50%;background-color: black;margin: auto;padding: 25px;transform: translate(-50%,-50%);overflow-y: scroll;}
+.winpopup2{z-index: 9004;width: 1000px;height: 400px;display: none;position: fixed;top: 50%; left: 50%;background-color: black;margin: auto;padding: 25px;transform: translate(-50%,-50%);overflow-y: scroll;}
+.drawpopup{z-index: 9005;width: 1000px;height: 400px;display: none;position: fixed;top: 50%; left: 50%;background-color: black;margin: auto;padding: 25px;transform: translate(-50%,-50%);overflow-y: scroll;}
+/*.winningposition{ z-index: 9003;font-size:80px;width: 1000px;height: 800px;display: none;position: fixed;top: 50%;left: 50%;background-color: cyan;color: black;margin: auto; padding: 25px;transform: translate(-50%,-50%);overflow-y: scroll;}*/
